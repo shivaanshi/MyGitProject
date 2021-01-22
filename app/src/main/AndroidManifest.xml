@@ -10,12 +10,32 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyGitProject">
         <activity android:name=".MainActivity">
+        </activity>
+
+        <activity android:name=".ActivityA">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ActivityB"
+            android:launchMode="singleTask">
+        </activity>
+        <activity android:name=".ActivityC"
+            android:launchMode="singleInstance">
+        </activity>
+        <activity android:name=".ActivityD"
+            android:launchMode="standard">
+        </activity>
+        <activity android:name=".ActivityE"
+            android:launchMode="singleTask">
+        </activity>
+        <activity android:name=".ActivityF"
+            android:launchMode="singleTop">
+        </activity>
+
+
     </application>
 
 </manifest>
