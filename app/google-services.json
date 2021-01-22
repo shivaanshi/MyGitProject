@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "934913587932",
+    "project_id": "myfirebaseproject-e1f6a",
+    "storage_bucket": "myfirebaseproject-e1f6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934913587932:android:654aacabea3c9f3e4a1219",
+        "android_client_info": {
+          "package_name": "com.meenakshi.mygitproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934913587932-ge76q20r14ggj80bdb23q86tbfsjpcbo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meenakshi.mygitproject",
+            "certificate_hash": "f70000cb032fe3491035da78d94e8b452d4e948a"
+          }
+        },
+        {
+          "client_id": "934913587932-mu4vschveah55vckkd4im2n5608gcasu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnhtWdCoFFA4_OuiWqMfnWPUAG8Z-il78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934913587932-mu4vschveah55vckkd4im2n5608gcasu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
