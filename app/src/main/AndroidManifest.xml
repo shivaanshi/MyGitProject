@@ -12,7 +12,9 @@
         <activity android:name=".MainActivity">
         </activity>
 
-        <activity android:name=".ActivityA">
+        <activity android:name=".ActivityA"
+            android:launchMode="singleTask"
+            android:taskAffinity="abc.xyz">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,19 +22,21 @@
             </intent-filter>
         </activity>
         <activity android:name=".ActivityB"
-            android:launchMode="singleTask">
-        </activity>
-        <activity android:name=".ActivityC"
             android:launchMode="singleInstance">
         </activity>
+        <activity android:name=".ActivityC"
+            android:launchMode="singleTop">
+        </activity>
         <activity android:name=".ActivityD"
-            android:launchMode="standard">
+            android:launchMode="singleTask"
+            android:taskAffinity="abc.xyz">
         </activity>
         <activity android:name=".ActivityE"
-            android:launchMode="singleTask">
+            android:launchMode="singleTask"
+            android:taskAffinity="abc.xyz">
         </activity>
         <activity android:name=".ActivityF"
-            android:launchMode="singleTop">
+            android:launchMode="singleInstance">
         </activity>
 
 
